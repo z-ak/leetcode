@@ -4,7 +4,7 @@ import javafx.util.Pair;
 
 import java.util.*;
 
-public class LeetCode126 {
+public class LeetCode_126 {
 
     class Solution {
         List<List<String>> result = new ArrayList<List<String>>();
@@ -340,8 +340,8 @@ public class LeetCode126 {
         wordList.add("dot");
 
 
-        LeetCode126 leetCode126 = new LeetCode126();
-        LeetCode126.Solution solution = leetCode126.new Solution();
+        LeetCode_126 leetCode126 = new LeetCode_126();
+        LeetCode_126.Solution solution = leetCode126.new Solution();
 
         System.out.println(solution.findLadders(beginWord, endWord, wordList));
     }
